@@ -49,7 +49,9 @@ def countPlayers():
     # Retrieve alls of the items for the query
     x1 = c2.fetchall()
     # Returns the result
-    return x1[0][0]
+    x2 = x1[0][0]
+    # print x2
+    return x2
 
 
 def registerPlayer(name):
