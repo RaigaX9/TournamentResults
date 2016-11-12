@@ -16,10 +16,11 @@ the tournament folder
 6. Run `vagrant ssh` to get into Vagrant
 7. Navigate to `/vagrant/tournament`
 8. Run `psql` to run PostgreSQL
-9. Run `\i tournament.sql` to import the queries from `tournament.sql`
-10. Run `\c tournament` to test if you are able to connect to the database.
-11. Do `\q` to get out of `psql`
-12. Run `python tournament-test.py` to run the test cases
+9. Type `CREATE DATABASE tournament;` to create the `tournament` database
+10. Run `\c tournament` to test if you are able to connect to the database
+11. Run `\i tournament.sql` to import the tables from the file
+12. Do `\q` to get out of `psql`
+13. Run `python tournament-test.py` to run the test cases
 
 ## References
 
